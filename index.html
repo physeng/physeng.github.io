@@ -30,10 +30,12 @@
 				    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
 				      <ul class="nav navbar-nav">
 				        <li class="active"><a href="#banner">Home</a></li>
-				        <li class=""><a href="#service">Services</a></li>
-				        <li class=""><a href="#about">About</a></li>
-				        <li class=""><a href="#testimonial">Testimonial</a></li>
-				        <li class=""><a href="#contact">Contact</a></li>
+				        <li class=""><a href="#torque">Torque</a></li>
+				        <li class=""><a href="#angularmotion">Angular Motion</a></li>
+				        <li class=""><a href="#moi">Moment of Inertia</a></li>
+				        <li class=""><a href="#ie&w">Internal Energy and Work</a></li>
+                        <li class=""><a href="#pv">P-V Diagrams</a></li>
+                        <li class=""><a href="#entropy">Entropy</a></li>
 				      </ul>
 				    </div>
 				</div>
@@ -59,8 +61,9 @@
 		</div>
 	</section>
 	<!--/ banner-->
-	<!--service-->
-	<section id="service" class="section-padding">
+    
+	<!--torque-->
+	<section id="torque" class="section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 col-sm-4">
@@ -111,9 +114,9 @@
 			</div>
 		</div>
 	</section>
-	<!--/ service-->
-	<!--cta-->
-	<section id="cta-1" class="section-padding">
+	<!--/ torque-->
+    
+	<!--<section id="cta-1" class="section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="schedule-tab">
@@ -157,10 +160,10 @@
 				</div>
 			</div>
 		</div>
-	</section>
-	<!--cta-->
-	<!--about-->
-	<section id="about" class="section-padding">
+	</section> -->
+    
+	<!--angular motion-->
+	<section id="angularmotion" class="section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-sm-4 col-xs-12">
@@ -192,9 +195,10 @@
 			</div>
 		</div>
 	</section>
-	<!--/ about-->
-	<!--doctor team-->
-	<section id="doctor-team" class="section-padding">
+	<!--/ angular motion-->
+    
+	<!--moment of inertia-->
+	<section id="moi" class="section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -260,9 +264,10 @@
 			</div>
 		</div>
 	</section>
-	<!--/ doctor team-->
-	<!--testimonial-->
-	<section id="testimonial" class="section-padding">
+	<!--/ moment of inertia-->
+    
+	<!--internal energy and work-->
+	<section id="ie&w" class="section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -308,9 +313,9 @@
 			</div>
 		</div>
 	</section>
-	<!--/ testimonial-->
-	<!--cta 2-->
-	<section id="cta-2" class="section-padding">
+	<!--/ internal energy and work-->
+      
+	<!--<section id="cta-2" class="section-padding">
 		<div class="container">
 			<div class=" row">
 				<div class="col-md-2"></div>
@@ -324,10 +329,10 @@
 	            <div class="col-md-2"></div>
 	        </div>
 		</div>
-	</section>
-	<!--cta-->
-	<!--contact-->
-	<section id="contact" class="section-padding">
+	</section> -->
+    
+	<!--P-V diagrams-->
+	<section id="pv" class="section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -377,7 +382,61 @@
 			</div>
 		</div>
 	</section>
-	<!--/ contact-->
+	<!--/ P-V diagrams-->
+      
+    <!--entropy-->
+	<section id="entropy" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="ser-title">Contact us</h2>
+					<hr class="botm-line">
+				</div>
+				<div class="col-md-4 col-sm-4">
+			      <h3>Contact Info</h3>
+			      <div class="space"></div>
+			      <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>321 Awesome Street<br>
+			        New York, NY 17022</p>
+			      <div class="space"></div>
+			      <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@companyname.com</p>
+			      <div class="space"></div>
+			      <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+1 800 123 1234</p>
+			    </div>
+				<div class="col-md-8 col-sm-8 marb20">
+					<div class="contact-info">
+							<h3 class="cnt-ttl">Having Any Query! Or Book an appointment</h3>
+							<div class="space"></div>
+                            <div id="sendmessage">Your message has been sent. Thank you!</div>
+                            <div id="errormessage"></div>
+							<form action="" method="post" role="form" class="contactForm">
+							    <div class="form-group">
+                                    <input type="text" name="name" class="form-control br-radius-zero" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control br-radius-zero" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control br-radius-zero" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control br-radius-zero" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                    <div class="validation"></div>
+                                </div>
+                                
+								<div class="form-action">
+									<button type="submit" class="btn btn-form">Send Message</button>
+								</div>
+							</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/ entropy-->
+    
 	<!--footer-->
 	<footer id="footer">
 		<div class="top-footer">
@@ -388,7 +447,7 @@
 								<h4 class="white no-padding">About Us</h4>
 							</div>
 							<div class="info-sec">
-								<p>Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient.</p>
+								<p>Two kids who wanna pass IB physics.</p>
 							</div>
 					</div>
 					<div class="col-md-4 col-sm-4 marb20">
@@ -398,8 +457,8 @@
 						<div class="info-sec">
 							<ul class="quick-info">
 								<li><a href="index.html"><i class="fa fa-circle"></i>Home</a></li>
-								<li><a href="#service"><i class="fa fa-circle"></i>Service</a></li>
-								<li><a href="#contact"><i class="fa fa-circle"></i>Appointment</a></li>
+								<li><a href="#torque"><i class="fa fa-circle"></i>10.1: Rigid bodies and rotational dynamics</a></li>
+								<li><a href="#ie&w"><i class="fa fa-circle"></i>10.2: Thermodynamics</a></li>
 							</ul>
 						</div>
 					</div>
