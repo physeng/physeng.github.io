@@ -8,7 +8,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 20px;
-	color: #999999;
+	color: #555555;
 	font-size: 300;
 	font-size: 16px;
 }
@@ -39,7 +39,7 @@ a, a:hover, a:focus, a:active{
 
 .section-padding{
 	padding: 60px 0px;
-
+    border: solid #0D4653;
 }
 h2 {
     line-height: 20px;
