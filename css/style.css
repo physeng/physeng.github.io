@@ -29,7 +29,7 @@ table {
 }
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway';
 	font-weight: 600;
 	color: #222222;
 }
@@ -46,7 +46,6 @@ h2 {
     margin: 0;
     font-size: 28px;
     font-weight: 700;
-    text-transform: uppercase;
 }
 hr.botm-line {
     height: 3px;
@@ -87,6 +86,10 @@ banner
 }
 
 .navbar-brand img {
+    padding-top: 2px;
+    width: 120px !important;
+}
+
     padding-top: 2px;
     width: 120px !important;
 }
@@ -137,12 +140,12 @@ banner
 #banner{
 	background: url('../img/bg-banner.jpg') no-repeat fixed;
 	background-size: cover;
-	min-height: 650px;
+	min-height: 670px;
 	position: relative;
 }
 .bg-color{
 	background-color: RGBA(13, 70, 83, 0.78);
-	min-height: 650px;
+	min-height: 670px;
 }
 .banner-info{
 	padding-top: 190px;

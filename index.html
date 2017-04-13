@@ -33,7 +33,7 @@
 				        <li class=""><a href="#torque">Torque</a></li>
 				        <li class=""><a href="#angularmotion">Angular Motion</a></li>
 				        <li class=""><a href="#moi">Moment of Inertia</a></li>
-				        <li class=""><a href="#ie&w">Internal Energy and Work</a></li>
+				        <li class=""><a href="#iew">Internal Energy and Work</a></li>
                         <li class=""><a href="#pv">P-V Diagrams</a></li>
                         <li class=""><a href="#entropy">Entropy</a></li>
 				      </ul>
@@ -45,16 +45,16 @@
 				<div class="row">
 					<div class="banner-info">
 						<div class="banner-logo text-center">
-							<img src="img/logo.png" class="img-responsive" style="height: 300px; margin-top: -100px">
+							<img src="img/logo.png" class="img-responsive" style="height: 300px; margin-top: -80px">
 						</div>
 						<div class="banner-text text-center">
-							<h1 class="white">I love IB!!</h1>
-							<p>I love physics too!</p>
-							<a href="#contact" class="btn btn-appoint">Help me with Engineering Physics!</a>
+							<h1 class="white" style="margin-top: 40px">Are you looking to pass your IB Physics exam?</h1>
+							<p>You'll need to study an options unit for Paper 3! How convenient that we've already reviewed the Engineering Physics unit, Option B, for you!</p>
+							<a href="#torque" class="btn btn-appoint">Help me with Engineering Physics!</a>
 						</div>
 						<!--<div class="overlay-detail text-center">
-			               <a href="#service"><i class="fa fa-angle-down"></i></a>
-			             </div>	-->
+			               <a href="#service"><!--<i class="fa fa-angle-down"></i></a>
+			            </div> -->
 					</div>
 				</div>
 			</div>
@@ -66,132 +66,219 @@
 	<section id="torque" class="section-padding">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 col-sm-4">
-					<h2 class="ser-title">Our Service</h2>
-					<hr class="botm-line">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum.</p>
-				</div>
-				<div class="col-md-4 col-sm-4">
-					<div class="service-info">
-						<div class="icon">
-							<i class="fa fa-stethoscope"></i>
-						</div>
-						<div class="icon-info">
-							<h4>24 Hour Support</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-					</div>
-					<div class="service-info">
-						<div class="icon">
-							<i class="fa fa-ambulance"></i>
-						</div>
-						<div class="icon-info">
-							<h4>Emergency Services</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4">
-					<div class="service-info">
-						<div class="icon">
-							<i class="fa fa-user-md"></i>
-						</div>
-						<div class="icon-info">
-							<h4>Medical Counseling</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-					</div>
-					<div class="service-info">
-						<div class="icon">
-							<i class="fa fa-medkit"></i>
-						</div>
-						<div class="icon-info">
-							<h4>Premium Healthcare</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-					</div>
-				</div>
-			</div>
+                <h2 class="ser-title">TORQUE (&tau;)</h2>
+                <hr class="botm-line">
+                <p>In Topic 2, forces were acted upon objects, which were simplified to point masses, assuming all forces acted upon the <b>center of masses</b> of the objects. When a force does not act on the center of mass, the object will accelerate as well as rotate, the rotation effect called <b>torque</b>.</p>
+                <p style="text-align: center;"><img src="img/torque.png" alt="..."></p>
+                <div style="text-align: center;">
+                    <h3>&tau; = F x r</h3>
+                </div>
+                <div style="text-align: center;">
+                    <div style="display: inline-block; text-align: left">
+                        <b>&tau;: torque about a pivot point</b><br/>
+                        <b>F: force on the object</b><br/>
+                        <b>r: distance from the object to a pivot point</b>
+                    </div>
+                </div>
+            </div>
+            <br/><br/><br/>
+		</div>
+        <div class="container">
+			<div class="row">
+                <h2 class="ser-title">EQUILIBRIUM</h2>
+                <hr class="botm-line">
+                <p>When considering torques as scalars instead of vectors, which will be done throughout this unit, it is important to consider torque in the clockwise and counterclockwise directions. As an example, clockwise can be considered the positive direction and counterclockwise the negative direction. With this, an object is balanced when the sum of the torques is zero. Taking this one step further, an object is at <b>equilibrium</b> if both the forces and torques are balanced out.</p>
+                <p style="text-align: center;"><img src="img/equilibrium.png" alt="..."></p>
+                <div class="col-md-4 col-sm-4">
+                    Forces:<br/>
+                    <b>Upwards</b> = 15 N<br/>
+                    <p><b>Downwards</b> = 10 N + 5 N = 15 N</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    Torques (about A):<br/>
+                    <b>Clockwise</b> = 5 N x 4 m = 20 Nm<br/>
+                    <p><b>Counterclockwise</b> = 10 N x 2 m = 20 Nm</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    Torques (about B):<br/>
+                    <b>Clockwise</b> = 5 N x 8 m + 10 N x 2 m = 60 Nm<br/>
+                    <p><b>Counterclockwise</b> = 15 N x 4 m = 60 Nm</p>
+                </div>
+                <p>From the example, another condition for equilibrium is that the torques about any point on the object sum to zero.</p>
+                <p>Often times, forces acted are acted on the object at an angle. In these cases, the components perpendicular to the object must be determined through trigonometry and used when calculating torque. The parallel components do not impact the torque as they pass through the pivot and do not have a turning effect.</p>
+            </div>
+            <br/><br/><br/>
+		</div>
+        <div class="container">
+			<div class="row">
+                <h2 class="ser-title">TORQUE EXAMPLES</h2>
+                <hr class="botm-line">
+                <h4><u>Balanced beams</u><br/></h4>
+                <p>An example of a balanced beam is shown in the “Equilibrium” section above.</p>
+                <h4><u>Levers</u><br/></h4>
+                <p style="text-align: center;"><img src="img/lever.png" alt="..."></p>
+                <ul type="disc">Torques:
+                    <li><b>Clockwise</b> = 50 N x 30 cm = 1500 Ncm</li>
+                    <li><b>Counterclockwise</b> = F x 0.5 cm</li>
+                </ul>
+                <div style="text-align:center;">
+                    F x 0.5 cm = 1500 Ncm<br/>
+                    <p>F = 3000 N</p>
+                </div>
+                <h4><u>Bridges</u><br/></h4>
+                <p>Calculate the forces on each of the supports.</p>
+                <p style="text-align: center;"><img src="img/bridge.png" alt="..."></p>
+                <div class="col-md-6 col-sm-6">
+                    Forces:<br/>
+                    <b>Upwards</b> = F<sub>A</sub> + F<sub>B</sub><br/>
+                    <p><b>Downwards</b> = 5 N + 10 N = 15 N</p>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    Torques (about A):<br/>
+                    <b>Clockwise</b> = 5 N x 0.2 m + 10 N x 0.4 m = 5 Nm<br/>
+                    (Note that the 10 N force is exactly halfway between the ends of the bridge.)<br/>
+                    <p><b>Counterclockwise</b> = F<sub>B</sub> x 0.8 m</p>
+                </div>
+                <div style="text-align:center;">
+                    F<sub>B</sub> x 0.8 m = 5 Nm<br/>
+                    <p>F<sub>B</sub> = 6.25 N</p>
+                </div>
+                <p>Since the forces must be balanced,</p>
+                <div style="text-align:center;">
+                    F<sub>A</sub> + F<sub>B</sub> = 15 Nm<br/>
+                    F<sub>A</sub> + (6.25 N) = 15 N<br/><p>F<sub>A</sub> = 8.75 N</p>
+                </div>
+                <h4><u>Hanging signs</u><br/></h4>
+                <p>In a hanging sign example, following the diagram, the tension of the wire and the weight of the sign are balanced by a normal force from the wall, R, and a reaction force from the wall, F, respectively.</p>
+                <p style="text-align: center;"><img src="img/hanging%20sign.png" alt="..."></p>
+                <p>For example, if the sign has a mass 50 kg, the bar a mass 10 kg, the bar a length 3 m, and the wire 50 cm from the end forming an angle of 45°, and calculating the unknown forces,</p>
+                <ul type="disc">Torques (about the wall):
+                    <li><b>Clockwise</b> = T x sin 45° x 2.5 m</li>
+                    <li><b>Counterclockwise</b> = 600 N x 1.5 m</li>
+                </ul>
+                <div style="text-align:center;">
+                    T x sin 45° x 2.5 m = 600 N x 1.5 m<br/><p>T = 509 N</p>
+                </div>
+                <p>Since the horizontal forces must be balanced,</p>
+                <ul type="disc">Horizontal forces:
+                    <li><b>Left</b> = R</li>
+                    <li><b>Right</b> = T x cos 45° = (509 N) x cos 45° = 360 N</li>
+                </ul>
+                <div style="text-align:center;">
+                    <p>R = 360 N</p>
+                </div>
+                <p>Since the vertical forces must be balanced,</p>
+                <ul type="disc">Vertical forces:
+                    <li><b>Upwards</b> = T x sin 45° + F</li>
+                    <li><b>Downwards</b> = 600 N</li>
+                </ul>
+                <div style="text-align:center;">
+                    (509 N) x sin 45° + F = 600 N<br/>
+                    <p>F = 240 N</p>
+                </div>
+                <h4><u>Leaning ladders</u><br/></h4>
+                <p>In a leaning ladder example, there are normal forces from the wall and ground to balance out the friction of the ladder on the ground and the weight on the ladder, respectively.</p>
+                <p style="text-align: center;"><img src="img/leaning%20ladder.png" alt="..."></p>
+                <p>For example, if the ladder with mass 20 kg has a length of 5 m with its bottom 3 m away from the wall, and calculating the friction between the ground and the bottom of the ladder,</p>
+                <p>Since the vertical forces must be balanced,</p>
+                <ul type="disc">Vertical forces:
+                    <li><b>Upwards</b> = R<sub>g</sub></li>
+                    <li><b>Downwards</b> = 200 N</li>
+                </ul>
+                <div style="text-align:center;">
+                    <p>R<sub>g</sub> = 200 N</p>
+                </div>
+                <p>Now calculating the torques about the top of the ladder, since if the torques were calculated about the bottom, the friction would be disregarded,</p>
+                <ul type="disc">Torques (about the top of the ladder):
+                    <li><b>Clockwise</b> = R<sub>g</sub> x d = (200 N) x (3 m) = 600 Nm</li>
+                    <li><b>Counterclockwise</b> = F x h + W x (0.5d) = F x (4 m) + (20 kg x 10 m s<sup>-2</sup>) x (0.5 x 3 m) = F x 4 m + 300 Nm</li>
+                </ul>
+                <div style="text-align:center;">
+                    F x 4 m + 300 Nm = 600 Nm<br/>
+                    <p>F = 75 N</p>
+                </div>
+            </div>
 		</div>
 	</section>
 	<!--/ torque-->
-    
-	<!--<section id="cta-1" class="section-padding">
-		<div class="container">
-			<div class="row">
-				<div class="schedule-tab">
-    			<div class="col-md-4 col-sm-4 bor-left">
-    				<div class="mt-boxy-color"></div>
-	    			<div class="medi-info">
-		    			<h3>Emergency Case</h3>
-						<p>I am text block. Edit this text from Appearance / Customize / Homepage header columns. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-						<a href="#" class="medi-info-btn">READ MORE</a>		    	
-					</div>
-    			</div>
-				<div class="col-md-4 col-sm-4">
-					<div class="medi-info">
-		    			<h3>Emergency Case</h3>
-						<p>I am text block. Edit this text from Appearance / Customize / Homepage header columns. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-						<a href="#" class="medi-info-btn">READ MORE</a>	
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 mt-boxy-3">
-					<div class="mt-boxy-color"></div>
-					<div class="time-info">
-			    			<h3>Opening Hours</h3>
-							<table style="margin: 8px 0px 0px;" border="1">
-								<tbody>
-									<tr>
-									<td>Monday - Friday</td>
-									<td>8.00 - 17.00</td>
-									</tr>
-									<tr>
-									<td>Saturday</td>
-									<td>9.30 - 17.30</td>
-									</tr>
-									<tr>
-									<td>Sunday</td>
-									<td>9.30 - 15.00</td>
-									</tr>
-								</tbody>
-							</table>				    		
-					</div>
-				</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-    
+
 	<!--angular motion-->
 	<section id="angularmotion" class="section-padding">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 col-sm-4 col-xs-12">
-			        <div class="section-title">
-			          <h2 class="head-title lg-line">The Medilap <br>Ultimate Dream</h2>
-			          <hr class="botm-line">
-			          <p class="sec-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
-			          <a href="" style="color: #0cb8b6; padding-top:10px;">Know more..</a>
-			        </div>
-			    </div>
-			    <div class="col-md-9 col-sm-8 col-xs-12">
-			       <div style="visibility: visible;" class="col-sm-9 more-features-box">
-			          <div class="more-features-box-text">
-			            <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
-			            <div class="more-features-box-text-description">
-				            <h3>It's something important you want to know.</h3>
-				            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
-				        </div>
-			          </div>
-			          <div class="more-features-box-text">
-			            <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
-			            <div class="more-features-box-text-description">
-				            <h3>It's something important you want to know.</h3>
-				            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
-				        </div>
-                        </div>
-			        </div>
-			    </div>
+				<h2 class="ser-title">ANGULAR DISPLACEMENT (&theta;)</h2>
+                <hr class="botm-line">
+                <p>As an object rotates, it sweeps out an angle &Delta;&theta;, known as the <b>angular displacement</b> of the object and is measured in radians.</p>
+			</div>
+            <br/><br/><br/>
+		</div>
+        <div class="container">
+			<div class="row">
+				<h2 class="ser-title">ANGULAR VELOCITY (&omega;)</h2>
+                <hr class="botm-line">
+                <p>As an object rotates, the speed of rotation can be described as <b>angular velocity</b>, defined as the angle (angular displacement) swept out per unit time.</p>
+                <div style="text-align: center;">
+                    <h3>&omega; = <sup>&Delta;&theta;</sup>&frasl;<sub>&Delta;t</sub></h3>
+                </div>
+			</div>
+            <br/><br/>
+		</div>
+        <div class="container">
+			<div class="row">
+				<h2 class="ser-title">ANGULAR ACCELERATION (&alpha;)</h2>
+                <hr class="botm-line">
+                <p>If the torques on an object are unbalanced and the object’s angular velocity is changing, the object has angular acceleration, defined as the rate of change of angular velocity.</p>
+                <div style="text-align: center;">
+                    <h3>&alpha; = <sup>&Delta;&omega;</sup>&frasl;<sub>&Delta;t</sub></h3>
+                </div>
+                <p>These values are the rotational equivalents of displacement, velocity, and acceleration, respectively.</p>
+			</div>
+            <br/><br/><br/>
+		</div>
+        <div class="container">
+			<div class="row">
+				<h2 class="ser-title">CONSTANT ANGULAR ACCELERATION EQUATIONS</h2>
+                <hr class="botm-line">
+                <p>If the angular acceleration is constant, we can use the rotational equivalents to the suvat equations in the exact same way (refer to B.1 in the data booklet).</p>
+                <p>For example, calculating the final angular velocity for a body rotating at 10 rad s<sup>-1</sup> and accelerating at a uniform rate of 2 rad s<sup>-2</sup> for 5 seconds,</p>
+                <div style="text-align: center;">
+                    <div style="display: inline-block; text-align: left">
+                        &omega;<sub>f</sub> = &omega;<sub>i</sub> + &alpha;t<br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= (10 rad s<sup>-1</sup>) + (2 rad s<sup>-2</sup>)(5 s)<br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 20 rad s<sup>-1</sup>
+                    </div>
+                </div>
+			</div>
+            <br/><br/><br/>
+		</div>
+        <div class="container">
+			<div class="row">
+				<h2 class="ser-title">GRAPHICAL REPRESENTATIONS OF ANGULAR MOTION</h2>
+                <hr class="botm-line">
+                <p>As with linear motion, angular motion can be represented graphically in the same ways.</p>
+                <p style="text-align: center;"><img src="img/graphical%20angular%20motion.png" alt="..."></p>
+                <p>Similar to linear motion, the three graphs are all connected through fundamental calculus. The gradient of angular displacement gives angular velocity and the gradient of angular velocity gives angular acceleration. On the other hand, the area under the curve of angular acceleration gives angular velocity and the area under the curve of angular velocity gives angular displacement.</p>
+			</div>
+            <br/><br/><br/>
+		</div>
+        <div class="container">
+			<div class="row">
+				<h2 class="ser-title">ANGULAR MOTION IN CIRCULAR MOTION</h2>
+                <hr class="botm-line">
+                <p>Circular motion can be split into two components: a component perpendicular to the circumference and a component tangential to it. When an object moves in a circular path with constant velocity, it only has centripetal acceleration and no tangential acceleration. However, when an unbalanced torque acts on the object, there will be both a centripetal and a tangential acceleration. The tangential acceleration can be calculated with the formula</p>
+                <div style="text-align: center;">
+                    <h3>&alpha;<sub>t</sub> = &alpha;r</h3>
+                </div>
+                <div style="text-align: center;">
+                    <div style="display: inline-block; text-align: left">
+                        <b>&alpha;<sub>t</sub>: tangential acceleration of the object</b><br/>
+                        <b>&alpha;: angular acceleration of the object</b><br/>
+                        <p><b>r: distance from the pivot to the object</b></p>
+                    </div>
+                </div>
+                <p>From the equation, it is known that if an object is rotating with constant angular acceleration:<br/>
+                - All points will have the same instantaneous angular velocity and angular acceleration<br/>
+                - Tangential velocity and tangential acceleration will be greater for points further away from the pivot</p>
 			</div>
 		</div>
 	</section>
@@ -267,7 +354,7 @@
 	<!--/ moment of inertia-->
     
 	<!--internal energy and work-->
-	<section id="ie&w" class="section-padding">
+	<section id="iew" class="section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -455,11 +542,9 @@
 							<h4 class="white no-padding">Quick Links</h4>
 						</div>
 						<div class="info-sec">
-							<ul class="quick-info">
-								<li><a href="index.html"><i class="fa fa-circle"></i>Home</a></li>
-								<li><a href="#torque"><i class="fa fa-circle"></i>10.1: Rigid bodies and rotational dynamics</a></li>
-								<li><a href="#ie&w"><i class="fa fa-circle"></i>10.2: Thermodynamics</a></li>
-							</ul>
+							<a class="white no-padding" href="index.html">- Home</a><br/>
+                            <a class="white no-padding" href="#torque">- 10.1: Rigid bodies and rotational dynamics</a><br/>
+                            <a class="white no-padding" href="#iew">- 10.2: Thermodynamics</a>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4 marb20">
